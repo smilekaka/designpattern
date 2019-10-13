@@ -1,5 +1,8 @@
 package com.kaka.designpattern.factory.abstractfactory;
 
+/**
+ * 抽象的披萨加盟店
+ */
 public abstract class PizzaStore {
 
     protected abstract Pizza createPizza(String item);

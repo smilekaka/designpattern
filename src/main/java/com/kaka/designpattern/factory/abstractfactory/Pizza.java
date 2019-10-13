@@ -1,11 +1,14 @@
 package com.kaka.designpattern.factory.abstractfactory;
 
+/**
+ * 抽象的披萨类
+ */
 public abstract class Pizza {
     String name;
 
     Dough dough;
     Sauce sauce;
-	Veggies[] veggies;
+    Veggies[] veggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;
