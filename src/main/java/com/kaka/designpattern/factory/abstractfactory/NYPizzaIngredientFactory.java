@@ -1,5 +1,8 @@
 package com.kaka.designpattern.factory.abstractfactory;
 
+/**
+ * 纽约原料工厂
+ */
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
     public Dough createDough() {
@@ -15,7 +18,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     public Veggies[] createVeggies() {
-		Veggies[] veggies = {new Garlic(), new Onion(), new Mushroom(), new RedPepper()};
+        Veggies[] veggies = {new Garlic(), new Onion(), new Mushroom(), new RedPepper()};
         return veggies;
     }
 
